@@ -55,7 +55,7 @@ $ echo -e "privado.txt\r\nprivada/" > .gitignore
 ```
 
 Quedaría así un fichero "gitignore" conteniendo:
-```Folder
+```File
 privado.txt
 privada/
 ```
@@ -64,3 +64,38 @@ Se ha creado un fichero con contenido vacío por medio del comando echo.
 ```Shell
 $ echo "" > 1.txt
 ```
+# Crear el tag v1.0 y subir los cambios al repositorio remoto
+Estos son los comandos utilizados para el tag v0.1. La imagen seguida es consecuencia del alias "git config --global alias.list 'log --oneline --decorate --graph --all'" que permite ver con mayor facilidad el histórico de git.
+
+```Shell
+git tag v0.1
+git push origin master
+```
+
+# Cuenta de GitHub
+
+Foto en perfil.
+
+Seguir los repositorios de los compañeros.
+
+Añadir una estrella a los repositorios campusciff del resto de compañeros.
+
+** Aclarar que tenía un repositorio antiguo y lo eliminé por lo que las dos estrellas que tenía desaparecieron :speak_no_evil: **
+
+# Crear una tabla
+| Compañer@ | GitHub |
+|---|---|
+| Alberto Marino  |  https://github.com/amarino5 |
+| Enrique Serrano  | https://github.com/eserranom  |
+| Araceli Macía | https://github.com/araceliMacia |
+| Giovani Mata | https://github.com/giovamata |
+| Ainhoa Calvo | https://github.com/AinhoaCE |
+| Mark Wellings | https://github.com/Mark-Wellings |
+| Fernando Escolano | https://github.com/fescolan |
+| Anna Lawrence | https://github.com/annalawrenc |
+| Juan García | https://github.com/juangarciaciff |
+| Asier Matas | https://github.com/asiermatas |
+
+# Colaboradores
+Colaborador del repositorio campusciff.
+
