@@ -68,15 +68,21 @@ git push origin master
 ![Git list2](https://github.com/jorgemaza/campusciff/blob/master/img/Utilizando%20el%20alias2.PNG)
 
 # Cuenta de GitHub
-A continuación se desarrollan los pasos para añadir ciertas cualidades a nuestro perfil de GitHub.
+A continuación se desarrollan los pasos para añadir una imagen al perfil de github y la 
+
 ## Imagen de perfil 
 Para poner una foto en el perfil de GitHub, hay que entrar en las opciones del perfil y añadir una foto menor de 1MB.
+
 ![Mi foto](https://avatars0.githubusercontent.com/u/19300313?v=3&s=460)
 
-## Poner el doble factor de autentificación y añadir la clave pública correspondiente a nuestro ordenador.
+## Doble factor de autentificación y añadir la clave pública correspondiente a nuestro ordenador.
+
+Primeramente hay que introducir el siguiente comando en el bash de nuestra consola git.
+
 ```Shell
 $ ssh-keygen -t rsa -b 4096 -C "jorgemaza@campusciff.net"
 ```
+
 Copiar el archivo id_rsa de nuestra máquina local en nuestra configuración SSH de los ajustes de nuestra cuenta. Por defecto, se sitúa en "~/.ssh/id_rsa.pub".
 
 ```Shell
@@ -86,7 +92,7 @@ clip < ~/.ssh/id_rsa.pub
 Ir a la configuración de GitHub --> SSH and GPG keys --> New SSH key, poner un nombre a nuestra clave del ordenador y pegar en Key la clave copiada con el comando anterior.
 ![Git list2](https://github.com/jorgemaza/campusciff/blob/master/img/CapturaSSH.PNG)
 
-Testear la clave por medio del comando :
+Probar la clave por medio del comando:
 
 ```Shell
 ssh -T git@github.com
