@@ -68,12 +68,12 @@ git push origin master
 ![Git list2](https://github.com/jorgemaza/campusciff/blob/master/img/Utilizando%20el%20alias2.PNG)
 
 # Cuenta de GitHub
-
-## Para poner una foto en el perfil de GitHub, hay que entrar en las opciones del perfil y añadir una foto menor de 1MB.
+A continuación se desarrollan los pasos para añadir ciertas cualidades a nuestro perfil de GitHub.
+## Imagen de perfil 
+Para poner una foto en el perfil de GitHub, hay que entrar en las opciones del perfil y añadir una foto menor de 1MB.
 ![Mi foto](https://avatars0.githubusercontent.com/u/19300313?v=3&s=460)
 
 ## Poner el doble factor de autentificación y añadir la clave pública correspondiente a nuestro ordenador.
-
 ```Shell
 $ ssh-keygen -t rsa -b 4096 -C "jorgemaza@campusciff.net"
 ```
