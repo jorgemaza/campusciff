@@ -19,7 +19,6 @@ Aparecerá un mensaje parecido al siguiente:
 
 >Hi jorgemaza! You've successfully authenticated, but GitHub does not provide shell access.
 
-
 Para clonar el repositorio de nuestro usuario, basta con introducir el comando git clone seguido de la dirección del repositorio al que queremos conectar para descargarlo en la carpeta actual del bash.
 ```Shell
 git clone git@github.com:jorgemaza/campusciff.git
@@ -38,7 +37,7 @@ Tras ello se graban los cambios con commit, utilizando "-m" para incluir el come
 git commit -m "commit inicial"
 ```
 
-# Push
+# Push inicial
 Para guardar los cambios del README en GitHub (repositorio remoto), hay que enviar el commit desde el repositorio local utilizando push.
 
 ```Shell
@@ -46,3 +45,22 @@ git push origin master
 ```
 
 Siendo "origin" el repositorio del que hemos clonado el proyecto campusciff y "master" el repositorio local de nuestra máquina.
+
+# Ignorar archivos
+
+Se han creado el archivo privado.txt y la carpeta privada. Para ignorar archivos, hay que añadirlos al fichero .gitignore. En este caso se ha usado este comando pero se puede hacer directamente desde cualquier editor. Para tener separadas las líneas entre los dos archivos dentro de .gitignore se han concatenado los saltos de línea "\n" y retorno de carro "\r", y se ha utilizado "-e" para que los pueda interpretar el bash.
+
+```Shell
+$ echo -e "privado.txt\r\nprivada/" > .gitignore
+```
+
+Quedaría así un fichero "gitignore" conteniendo:
+```Folder
+privado.txt
+privada/
+```
+# Añadir el fichero 1.txt al repositorio local
+Se ha creado un fichero con contenido vacío por medio del comando echo.
+```Shell
+$ echo "" > 1.txt
+```
