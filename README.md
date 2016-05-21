@@ -2,24 +2,14 @@
 
 Hay varias rutas desde GitHub por las que acceder a la creación de un nuevo repositorio. Una vez dentro de la sección de nuevo repositorio, indicaremos el nombre de éste (campusciff). De igual forma se puede iniciar como público o privado, con archivo readme o sin él... Todas estas opciones es posible configurarlas posteriormente.
 
-Para clonar el repositorio creado se puede optar por copiarlo mediante el protocolo HTTP o SSH. En este caso se ha empleado el protocolo SSH, y se han seguido previamente los pasos para tener nuestra máquina asociada al repositorio por criptografía asimétrica y de esta forma poder trabajar desde el ordenador sin necesidad de introducir la password por cada interacción con el repositorio remoto.
+![Crear Nuevo Repositorio](https://github.com/jorgemaza/campusciff/blob/master/img/CrearNuevoRepositorio.PNG)
 
-```Shell
-$ ssh-keygen -t rsa -b 4096 -C "jorgemaza@campusciff.net"
-```
-Copiar el archivo id_rsa de nuestra máquina local en nuestra configuración SSH de los ajustes de nuestra cuenta.
+Para clonar el repositorio creado se puede optar por copiarlo mediante el protocolo HTTP o SSH. En este caso se ha empleado el protocolo SSH, y se han seguido previamente los pasos para tener nuestra máquina asociada al repositorio por criptografía asimétrica y de esta forma poder trabajar desde el ordenador sin necesidad de introducir la password por cada interacción con el repositorio remoto. 
 
-Testear la clave por medio del comando 
+Introducir el comando git clone seguido de la dirección del repositorio al que queremos conectar para descargarlo en la carpeta actual del bash.
 
-```Shell
-ssh -T git@github.com
-```
+![GitClone](https://github.com/jorgemaza/campusciff/blob/master/img/SSH%20github.PNG)
 
-Aparecerá un mensaje parecido al siguiente:
-
->Hi jorgemaza! You've successfully authenticated, but GitHub does not provide shell access.
-
-Para clonar el repositorio de nuestro usuario, basta con introducir el comando git clone seguido de la dirección del repositorio al que queremos conectar para descargarlo en la carpeta actual del bash.
 ```Shell
 git clone git@github.com:jorgemaza/campusciff.git
 ```
@@ -50,6 +40,8 @@ Siendo "origin" el repositorio del que hemos clonado el proyecto campusciff y "m
 
 Se han creado el archivo privado.txt y la carpeta privada. Para ignorar archivos, hay que añadirlos al fichero .gitignore. En este caso se ha usado este comando pero se puede hacer directamente desde cualquier editor. Para tener separadas las líneas entre los dos archivos dentro de .gitignore se han concatenado los saltos de línea "\n" y retorno de carro "\r", y se ha utilizado "-e" para que los pueda interpretar el bash.
 
+![Archivos](https://github.com/jorgemaza/campusciff/blob/master/img/Crear%20privadotxt.PNG)
+
 ```Shell
 $ echo -e "privado.txt\r\nprivada/" > .gitignore
 ```
@@ -72,15 +64,47 @@ git tag v0.1
 git push origin master
 ```
 
+![Git list](https://github.com/jorgemaza/campusciff/blob/master/img/Utilizando%20el%20alias.PNG)
+![Git list2](https://github.com/jorgemaza/campusciff/blob/master/img/Utilizando%20el%20alias2.PNG)
+
 # Cuenta de GitHub
+
+## Para poner una foto en el perfil de GitHub, hay que entrar en las opciones del perfil y añadir una foto menor de 1MB.
+![Mi foto](https://avatars0.githubusercontent.com/u/19300313?v=3&s=460)
+
+## Poner el doble factor de autentificación y añadir la clave pública correspondiente a nuestro ordenador.
+
+```Shell
+$ ssh-keygen -t rsa -b 4096 -C "jorgemaza@campusciff.net"
+```
+Copiar el archivo id_rsa de nuestra máquina local en nuestra configuración SSH de los ajustes de nuestra cuenta. Por defecto, se sitúa en "~/.ssh/id_rsa.pub".
+
+```Shell
+clip < ~/.ssh/id_rsa.pub
+```
+
+Ir a la configuración de GitHub --> SSH and GPG keys --> New SSH key, poner un nombre a nuestra clave del ordenador y pegar en Key la clave copiada con el comando anterior.
+![Git list2](https://github.com/jorgemaza/campusciff/blob/master/img/CapturaSSH.PNG)
+
+Testear la clave por medio del comando :
+
+```Shell
+ssh -T git@github.com
+```
+
+Aparecerá un mensaje parecido al siguiente:
+
+>Hi jorgemaza! You've successfully authenticated, but GitHub does not provide shell access.
+
+# Uso social de GitHub
 
 Foto en perfil.
 
 Seguir los repositorios de los compañeros.
 
 Añadir una estrella a los repositorios campusciff del resto de compañeros.
-
-** Aclarar que tenía un repositorio antiguo y lo eliminé por lo que las dos estrellas que tenía desaparecieron :speak_no_evil: **
+![Estrella](https://github.com/jorgemaza/campusciff/blob/master/img/Estrellita.png)
+** Tenía un repositorio antiguo y lo eliminé por lo que las dos estrellas que tenía desaparecieron :speak_no_evil: **
 
 # Crear una tabla
 | Compañer@ | GitHub |
@@ -96,6 +120,5 @@ Añadir una estrella a los repositorios campusciff del resto de compañeros.
 | Juan García | https://github.com/juangarciaciff |
 | Asier Matas | https://github.com/asiermatas |
 
-# Colaboradores
-Colaborador del repositorio campusciff.
-
+# Añadir colaborador
+![Colaborador](https://github.com/jorgemaza/campusciff/blob/master/img/ColaboradorRepositorio.PNG)
