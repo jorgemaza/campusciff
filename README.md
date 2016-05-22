@@ -88,7 +88,7 @@ Puede optarse por recibir un código desde la aplicación de GitHub o por SMS. E
 
 Introducir el código recibido al mensaje del teléfono móvil y finalizar descargando el github-recovery-code.
 
-![RecoveryCode](https://github.com/jorgemaza/campusciff/blob/master/img/RecoveryCode.PNG)
+![RecoveryCode](https://github.com/jorgemaza/campusciff/blob/master/img/RecoveryCode.png)
 
 El recovery code permite que si perdemos los datos de la cuenta podamos recuperarla. 
 
