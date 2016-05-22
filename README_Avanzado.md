@@ -185,7 +185,7 @@ Se han creado dos equipos en la organización. Habrá administradores y colabora
 
 - Aministradores: [Mark](https://github.com/Mark-Wellings), [Enrique](https://github.com/eserranom) y [Adolfo](https://github.com/asanzdiego).
 
-- Colaboradores: [Alberto](https://github.com/amarino5) y [Héctor](https://github.com/hefaso). **[Adolfo](https://github.com/asanzdiego) se encuentra en administradores por lo que tiene todos los roles (administrador y colaborador) al igual que [Mark](https://github.com/Mark-Wellings) y [Enrique](https://github.com/eserranom)**.
+- Colaboradores: [Asier](https://github.com/asiermatas) y [Héctor](https://github.com/hefaso). **[Adolfo](https://github.com/asanzdiego) se encuentra en administradores por lo que tiene todos los roles (administrador y colaborador) al igual que [Mark](https://github.com/Mark-Wellings) y [Enrique](https://github.com/eserranom)**.
 
 ![CuandoCreoProyectoEnOrganizacion](https://github.com/jorgemaza/campusciff/blob/master/img/CuandoCreoProyectoEnOrganizacion.PNG)
 
@@ -232,7 +232,7 @@ git push origin master
 # Crear Pull-requests
 
 Primero se han hecho dos forks de dos repositorios de dos organizaciones de compañeros de los que mi usuario no es administrador ni colaborador:
-[juangarciaciff](https://github.com/juangarciaciff) y [amarino5](https://github.com/amarino5).
+[juangarciaciff](https://github.com/juangarciaciff) y [Asier](https://github.com/asiermatas).
 
 ![ForkJ](https://github.com/jorgemaza/campusciff/blob/master/img/ForkJuanGarcia.PNG)
 
@@ -262,5 +262,9 @@ Hacemos un Pull Request para solicitar a Juan los cambios en su index desde el f
 
 Posteriormente, Juan ha dado su "feedback" y ha mergeado mis cambios con los de su proyecto.
 
-
 ![MergeJuan](https://github.com/jorgemaza/campusciff/blob/master/img/MergeJuan.PNG)
+
+# Aceptar los pull-request que lleguen a los repositorios de mi organización
+
+![pullRequestAmarino5A](https://github.com/jorgemaza/campusciff/blob/master/img/AceptarPullRequest1.PNG)
+![pullRequestAmarino5B](https://github.com/jorgemaza/campusciff/blob/master/img/AceptarPullRequest2.PNG)
