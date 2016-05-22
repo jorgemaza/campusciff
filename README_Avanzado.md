@@ -187,6 +187,8 @@ Se han creado dos equipos en la organización. Habrá administradores y colabora
 
 - Colaboradores: [Alberto](https://github.com/amarino5) y [Héctor](https://github.com/hefaso). **[Adolfo](https://github.com/asanzdiego) se encuentra en administradores por lo que tiene todos los roles (administrador y colaborador) al igual que [Mark](https://github.com/Mark-Wellings) y [Enrique](https://github.com/eserranom)**.
 
+![CuandoCreoProyectoEnOrganizacion](https://github.com/jorgemaza/campusciff/blob/master/img/CuandoCreoProyectoEnOrganizacion.PNG)
+
 A continuación se muestran las opciones escogidas durante la creación de una nueva organización:
 
 Este sería el equipo.
@@ -234,20 +236,28 @@ Primero se han hecho dos forks de dos repositorios de dos organizaciones de comp
 
 ![ForkJ](https://github.com/jorgemaza/campusciff/blob/master/img/ForkJuanGarcia.PNG)
 
+Clicando en fork, GitHub pregunta en qué lugar deseamos guardar el proyecto.
+
 ![WhereShouldWeForkRepository](https://github.com/jorgemaza/campusciff/blob/master/img/WhereShouldWeForkRepository.PNG)
 
 Se han creado las ramas en cada fork dentro del lugar en el que lo hemos guardado y se ha modificado el fichero index.html añadiendo el nombre.
 
 ![ramaJuan2](https://github.com/jorgemaza/campusciff/blob/master/img/ramaJuan2.PNG)
 
+Nos movemos al proyecto copiado en este caso en el perfil y creamos una rama.
+
 ![CommiteandoCambiosRamaJuan](https://github.com/jorgemaza/campusciff/blob/master/img/CommiteandoCambiosRamaJuan.PNG)
+
+Hacemos commit del cambio en index.html.
 
 ![NuevoPullRequest](https://github.com/jorgemaza/campusciff/blob/master/img/NuevoPullRequest.PNG)
 
-![NuevoPullRequest2](https://github.com/jorgemaza/campusciff/blob/master/img/NuevoPullRequest2.PNG)
+En la página de Juan, se puede observar el cambio en el archivo.
 
 ![Mi nombre en la página](https://github.com/jorgemaza/campusciff/blob/master/img/Mi%20nombre%20en%20la%20página.PNG)
 
-![CuandoCreoProyectoEnOrganizacion](https://github.com/jorgemaza/campusciff/blob/master/img/CuandoCreoProyectoEnOrganizacion.PNG)
+Hacemos un Pull Request para solicitar a Juan los cambios en su index desde el fork llevado a cabo previamente.
+
+![NuevoPullRequest2](https://github.com/jorgemaza/campusciff/blob/master/img/NuevoPullRequest2.PNG)
 
 
