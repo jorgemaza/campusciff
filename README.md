@@ -125,9 +125,7 @@ Aparecerá un mensaje parecido al siguiente:
 
 # Uso social de GitHub
 
-Foto en perfil.
-
-Seguir los repositorios de los compañeros.
+Seguir los repositorios de los compañeros. :white_check_mark:
 
 Añadir una estrella a los repositorios campusciff del resto de compañeros.
 ![Estrella](https://github.com/jorgemaza/campusciff/blob/master/img/Estrellita.png)
