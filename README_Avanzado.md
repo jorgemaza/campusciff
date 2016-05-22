@@ -181,7 +181,11 @@ De igual forma que se crea un repositorio desde nuestro botón de la esquina sup
 
 # Crear equipos
 
-Se han creado dos equipos en la organización. Habrá administradores y colaboradores, y tres componentes en cada equipo. Los administradores tendrán todos los permisos "Owner" y los colaboradores "Member" algunos como crear repositorios, acceso a éstos y vista de otros miembros. 
+Se han creado dos equipos en la organización. Habrá administradores y colaboradores, y tres componentes en cada equipo. Los administradores tendrán todos los permisos "Owner" y los colaboradores "Member" algunos como crear repositorios, acceso a éstos y vista de otros miembros.
+
+- Aministradores: [Mark](https://github.com/Mark-Wellings), [Enrique](https://github.com/eserranom) y [Adolfo](https://github.com/asanzdiego).
+
+- Colaboradores: [Alberto](https://github.com/amarino5) y [Héctor](https://github.com/hefaso). **[Adolfo](https://github.com/asanzdiego) se encuentra en administradores por lo que tiene todos los roles (administrador y colaborador) al igual que [Mark](https://github.com/Mark-Wellings) y [Enrique](https://github.com/eserranom)**.
 
 A continuación se muestran las opciones escogidas durante la creación de una nueva organización:
 
@@ -189,13 +193,13 @@ Este sería el equipo.
 
 ![TeamCc](https://github.com/jorgemaza/campusciff/blob/master/img/TeamCampusCiff.PNG)
 
-Enviamos una solicitud a los compañeros para componer el equipo. El usuario [asanzdiego](https://github.com/asanzdiego) se encuentra en administradores por lo que tiene todos los roles (administrador y colaborador).
+Enviamos una solicitud a los compañeros para componer el equipo. 
 
 ![CompOwner](https://github.com/jorgemaza/campusciff/blob/master/img/CompiOwner.PNG)
 
 Todavía no hay miembros.
 
-![AunSinMiembros](https://github.com/jorgemaza/campusciff/blob/master/img/SinMiembros.PNG)
+![AunSinMiembros](https://github.com/jorgemaza/campusciff/blob/master/img/AunSinMiembros.PNG)
 
 # Crear un index.html
 Lo que se ha hecho ha sido clonar el repositorio, trabajar en local con un nuevo y simple archivo index.html.
@@ -225,6 +229,25 @@ git push origin master
 
 # Crear Pull-requests
 
+Primero se han hecho dos forks de dos repositorios de dos organizaciones de compañeros de los que mi usuario no es administrador ni colaborador:
+[juangarciaciff](https://github.com/juangarciaciff) y [amarino5](https://github.com/amarino5).
 
+![ForkJ](https://github.com/jorgemaza/campusciff/blob/master/img/ForkJuanGarcia.PNG)
+
+![WhereShouldWeForkRepository](https://github.com/jorgemaza/campusciff/blob/master/img/WhereShouldWeForkRepository.PNG)
+
+Se han creado las ramas en cada fork dentro del lugar en el que lo hemos guardado y se ha modificado el fichero index.html añadiendo el nombre.
+
+![ramaJuan2](https://github.com/jorgemaza/campusciff/blob/master/img/ramaJuan2.PNG)
+
+![CommiteandoCambiosRamaJuan](https://github.com/jorgemaza/campusciff/blob/master/img/CommiteandoCambiosRamaJuan.PNG)
+
+![NuevoPullRequest](https://github.com/jorgemaza/campusciff/blob/master/img/NuevoPullRequest.PNG)
+
+![NuevoPullRequest2](https://github.com/jorgemaza/campusciff/blob/master/img/NuevoPullRequest2.PNG)
+
+![Mi nombre en la página](https://github.com/jorgemaza/campusciff/blob/master/img/Mi%20nombre%20en%20la%20página.PNG)
+
+![CuandoCreoProyectoEnOrganizacion](https://github.com/jorgemaza/campusciff/blob/master/img/CuandoCreoProyectoEnOrganizacion.PNG)
 
 
