@@ -201,7 +201,7 @@ Enviamos una solicitud a los compañeros para componer el equipo.
 
 Todavía no hay miembros.
 
-![AunSinMiembros](https://github.com/jorgemaza/campusciff/blob/master/img/AunSinMiembros.PNG)
+![AunSinMiembros](https://github.com/jorgemaza/campusciff/blob/master/img/SinMiembros.PNG)
 
 # Crear un index.html
 Lo que se ha hecho ha sido clonar el repositorio, trabajar en local con un nuevo y simple archivo index.html.
