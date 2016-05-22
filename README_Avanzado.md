@@ -175,3 +175,56 @@ git list
 ```
 
 # Crear una organización
+De igual forma que se crea un repositorio desde nuestro botón de la esquina superior derecha de la opción del perfil, creamos una nueva organización. Se llamará campusciff-jorgemaza.
+
+![NuevaOrg](https://github.com/jorgemaza/campusciff/blob/master/img/NewSomething.PNG)
+
+# Crear equipos
+
+Se han creado dos equipos en la organización. Habrá administradores y colaboradores, y tres componentes en cada equipo. Los administradores tendrán todos los permisos "Owner" y los colaboradores "Member" algunos como crear repositorios, acceso a éstos y vista de otros miembros. 
+
+A continuación se muestran las opciones escogidas durante la creación de una nueva organización:
+
+Este sería el equipo.
+
+![TeamCc](https://github.com/jorgemaza/campusciff/blob/master/img/TeamCampusCiff.PNG)
+
+Enviamos una solicitud a los compañeros para componer el equipo. El usuario [asanzdiego](https://github.com/asanzdiego) se encuentra en administradores por lo que tiene todos los roles (administrador y colaborador).
+
+![CompOwner](https://github.com/jorgemaza/campusciff/blob/master/img/CompiOwner.PNG)
+
+Todavía no hay miembros.
+
+![AunSinMiembros](https://github.com/jorgemaza/campusciff/blob/master/img/AunSinMiembros.PNG)
+
+# Crear un index.html
+Lo que se ha hecho ha sido clonar el repositorio, trabajar en local con un nuevo y simple archivo index.html.
+```Shell
+git clone git@github.com:campusciff-jorgemaza/campusciff-jorgemaza.github.io.git
+echo "" > index.html
+vi index.html
+```
+
+```html
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Mi index</h1>
+<p>Jorge Maza de Julián.</p>
+
+</body>
+</html>
+```
+
+```Shell
+git add -A
+git commit -m "Index del repositorio de la organización"
+git push origin master
+```
+
+# Crear Pull-requests
+
+
+
+
