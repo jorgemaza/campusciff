@@ -232,7 +232,7 @@ git push origin master
 # Crear Pull-requests
 
 Primero se han hecho dos forks de dos repositorios de dos organizaciones de compañeros de los que mi usuario no es administrador ni colaborador:
-[juangarciaciff](https://github.com/juangarciaciff) y [Asier](https://github.com/asiermatas).
+[juangarciaciff](https://github.com/juangarciaciff) y [Alberto](https://github.com/amarino5).
 
 ![ForkJ](https://github.com/jorgemaza/campusciff/blob/master/img/ForkJuanGarcia.PNG)
 
