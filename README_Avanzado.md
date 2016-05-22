@@ -1,6 +1,6 @@
 # Ejercicio práctico sobre la utilización avanzada de Git, GitHub y Markdown
 
-Se ha querido separar el readme del ejercicio básico, por tanto se ha creado uno nuevo para este otro:
+Se ha querido separar el readme del ejercicio básico, por tanto se ha creado uno nuevo para este otro que es el avanzado:
 ```
 echo "" > README_Avanzado.md
 ```
@@ -78,7 +78,7 @@ git add -A
 git commit -m "Adios en 1.txt v0.2"
 ```
 
-Posicionarse de nuevo en la rama master y hacer un merge con la rama v0.2
+Volver de nuevo a la rama master y hacer un merge con la rama v0.2
 
 ```Shell
 git checkout master
@@ -102,7 +102,7 @@ Aparece entonces la rama master, que es la que da conflicto ya que es desde la q
 * master
 ```
 
-Por otro lado, para ver las ramas sin conflictos, utilizamos branch --no-meged:
+Para ver las ramas sin conflictos, utilizamos branch --no-meged:
 ```Shell
 git branch --no-merged
 ```
@@ -204,7 +204,8 @@ Todavía no hay miembros.
 ![AunSinMiembros](https://github.com/jorgemaza/campusciff/blob/master/img/SinMiembros.PNG)
 
 # Crear un index.html
-Lo que se ha hecho ha sido clonar el repositorio, trabajar en local con un nuevo y simple archivo index.html.
+Lo que se ha hecho ha sido clonar un repositorio nuevo con el nombre "campusciff-jorgemaza.github.io.git", trabajar en local con un nuevo archivo index.html (se trata de la página de la organización, pero inicialmente hemos dejado una página muy simple).
+
 ```Shell
 git clone git@github.com:campusciff-jorgemaza/campusciff-jorgemaza.github.io.git
 echo "" > index.html
@@ -214,12 +215,12 @@ vi index.html
 ```html
 <!DOCTYPE html>
 <html>
-<body>
+	<body>
 
-<h1>Mi index</h1>
-<p>Jorge Maza de Julián.</p>
-
-</body>
+	<h1>Mi index</h1>
+	<p>Jorge Maza de Julián.</p>
+	
+	</body>
 </html>
 ```
 
@@ -232,7 +233,7 @@ git push origin master
 # Crear Pull-requests
 
 Primero se han hecho dos forks de dos repositorios de dos organizaciones de compañeros de los que mi usuario no es administrador ni colaborador:
-[juangarciaciff](https://github.com/juangarciaciff) y [Alberto](https://github.com/amarino5).
+[Juan](https://github.com/juangarciaciff) y [Alberto](https://github.com/amarino5).
 
 ![ForkJ](https://github.com/jorgemaza/campusciff/blob/master/img/ForkJuanGarcia.PNG)
 

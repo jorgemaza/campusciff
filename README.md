@@ -40,7 +40,7 @@ Siendo "origin" el repositorio del que hemos clonado el proyecto campusciff y "m
 
 # Ignorar archivos
 
-Se han creado el archivo privado.txt y la carpeta privada. Para ignorar archivos, hay que añadirlos al fichero .gitignore. En este caso se ha usado este comando pero se puede hacer directamente desde cualquier editor. Para tener separadas las líneas entre los dos archivos dentro de .gitignore se han concatenado los saltos de línea "\n" y retorno de carro "\r", y se ha utilizado "-e" para que los pueda interpretar el bash.
+Se han creado el archivo "privado.txt" y la carpeta "privada". Para ignorar archivos, hay que añadirlos al fichero ".gitignore". En este caso se ha usado este comando pero se puede hacer directamente desde cualquier editor. Para tener separadas las líneas entre los dos archivos dentro de ".gitignore" se han concatenado los saltos de línea "\n" y retorno de carro "\r", y se ha utilizado "-e" para que los pueda interpretar el bash.
 
 ![Archivos](https://github.com/jorgemaza/campusciff/blob/master/img/Crear%20privadotxt.PNG)
 
@@ -48,16 +48,19 @@ Se han creado el archivo privado.txt y la carpeta privada. Para ignorar archivos
 $ echo -e "privado.txt\r\nprivada/" > .gitignore
 ```
 
-Quedaría así un fichero "gitignore" conteniendo:
+Quedaría así el archivo ".gitignore" conteniendo:
 ```File
 privado.txt
 privada/
 ```
+
 # Añadir el fichero 1.txt al repositorio local
 Se ha creado un fichero con contenido vacío por medio del comando echo.
+
 ```Shell
 $ echo "" > 1.txt
 ```
+
 # Crear el tag v1.0 y subir los cambios al repositorio remoto
 Estos son los comandos utilizados para el tag v0.1. La imagen seguida es consecuencia del alias "git config --global alias.list 'log --oneline --decorate --graph --all'" que permite ver con mayor facilidad el histórico de git.
 
