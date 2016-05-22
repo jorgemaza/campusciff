@@ -1,3 +1,5 @@
+# Ejercicio práctico sobre la utilización básica de Git, GitHub y Markdown
+
 # Crear repositorio y clonarlo en local
 
 Hay varias rutas desde GitHub por las que acceder a la creación de un nuevo repositorio. Una vez dentro de la sección de nuevo repositorio, indicaremos el nombre de éste (campusciff). De igual forma se puede iniciar como público o privado, con archivo readme o sin él... Todas estas opciones es posible configurarlas posteriormente.
@@ -68,14 +70,23 @@ git push origin master
 ![Git list2](https://github.com/jorgemaza/campusciff/blob/master/img/Utilizando%20el%20alias2.PNG)
 
 # Cuenta de GitHub
-A continuación se desarrollan los pasos para añadir una imagen al perfil de github y la 
+A continuación se desarrollan los pasos para añadir una imagen al perfil de github, el doble factor de autentificación y la clave pública correspondiente.
 
 ## Imagen de perfil 
 Para poner una foto en el perfil de GitHub, hay que entrar en las opciones del perfil y añadir una foto menor de 1MB.
 
 ![Mi foto](https://avatars0.githubusercontent.com/u/19300313?v=3&s=460)
 
-## Doble factor de autentificación y añadir la clave pública correspondiente a nuestro ordenador.
+## Doble factor de autentificación
+El doble factor de autentificación permite que nuestra cuenta sea más segura. El procedimiento para realizarlo es sencillo. Entramos en: Perfil/Settings/Security/Two-factor authentication, y entrar al botón Set up two-factor authentification.
+
+Después se puede optar a recibir un código desde la aplicación de GitHub o por SMS. En mi caso, he escogido la opción del SMS.
+
+Introducir el código recibido al mensaje del teléfono móvil.
+
+Finalizar descargando el github-recovery-code
+
+## Añadir la clave pública correspondiente a nuestro ordenador.
 
 Primeramente hay que introducir el siguiente comando en el bash de nuestra consola git.
 
@@ -110,7 +121,7 @@ Seguir los repositorios de los compañeros.
 
 Añadir una estrella a los repositorios campusciff del resto de compañeros.
 ![Estrella](https://github.com/jorgemaza/campusciff/blob/master/img/Estrellita.png)
-** Tenía un repositorio antiguo y lo eliminé por lo que las dos estrellas que tenía desaparecieron :speak_no_evil: **
+
 
 # Crear una tabla
 | Compañer@ | GitHub |
