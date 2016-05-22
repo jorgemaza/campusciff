@@ -260,4 +260,7 @@ Hacemos un Pull Request para solicitar a Juan los cambios en su index desde el f
 
 ![NuevoPullRequest2](https://github.com/jorgemaza/campusciff/blob/master/img/NuevoPullRequest2.PNG)
 
+Posteriormente, Juan ha dado su "feedback" y ha mergeado mis cambios con los de su proyecto.
 
+
+![MergeJuan](https://github.com/jorgemaza/campusciff/blob/master/img/MergeJuan.PNG)
