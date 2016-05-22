@@ -78,13 +78,23 @@ Para poner una foto en el perfil de GitHub, hay que entrar en las opciones del p
 ![Mi foto](https://avatars0.githubusercontent.com/u/19300313?v=3&s=460)
 
 ## Doble factor de autentificación
-El doble factor de autentificación permite que nuestra cuenta sea más segura. El procedimiento para realizarlo es sencillo. Entramos en: Perfil/Settings/Security/Two-factor authentication, y entrar al botón Set up two-factor authentification.
+El doble factor de autentificación permite que nuestra cuenta sea más segura. El procedimiento para realizarlo es sencillo. Entramos en: Perfil/Settings/Security/Two-factor authentication, y entrar al botón Set up two-factor authentication.
 
-Después se puede optar a recibir un código desde la aplicación de GitHub o por SMS. En mi caso, he escogido la opción del SMS.
+![TwoFactorAuth](https://github.com/jorgemaza/campusciff/blob/master/img/TwoFactorAuth.PNG)
 
-Introducir el código recibido al mensaje del teléfono móvil.
+Puede optarse por recibir un código desde la aplicación de GitHub o por SMS. En este caso, se ha escogido la opción del SMS.
 
-Finalizar descargando el github-recovery-code
+![TwoFactorAuth2](https://github.com/jorgemaza/campusciff/blob/master/img/TwoFactorAuth2.PNG)
+
+Introducir el código recibido al mensaje del teléfono móvil y finalizar descargando el github-recovery-code.
+
+![RecoveryCode](https://github.com/jorgemaza/campusciff/blob/master/img/RecoveryCode.PNG)
+
+El recovery code permite que si perdemos los datos de la cuenta podamos recuperarla. 
+
+GitHub enviará otro SMS si la doble autentificación ha funcionado satisfactoriamente.
+
+> You have successfully configured GitHub two-factor authentication. You will receive two-factor codes at this number.
 
 ## Añadir la clave pública correspondiente a nuestro ordenador.
 
